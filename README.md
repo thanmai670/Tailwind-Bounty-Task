@@ -11,7 +11,7 @@ import streamlit as st
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
 import pickle
-
+```
 -streamlit (st): Used to create and control the web application interface.
 -BertTokenizer, BertForSequenceClassification: From the transformers library, these are used to tokenize input text and load the pre-trained BERT model.
 -torch: This library is utilized to handle tensors and perform model inference.
